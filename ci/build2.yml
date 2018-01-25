@@ -8,10 +8,10 @@ image_resource:
     tag: latest
 
 inputs:
-  - name: source-code1
+  - name: source-code2
 
 outputs:
-  - name: build-output1
+  - name: build-output2
 
 run:
   path: source-code/ci/build.sh
