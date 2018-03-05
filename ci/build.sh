@@ -3,8 +3,8 @@
 set -e -x
 export TERM=xterm
 
-cd source-code1
+cd source-code
 ls -al
 ./gradlew clean assemble
 
-cp build/libs/spring-music.jar  ../build-output1/.
+cp build/libs/spring-music.jar  ../build-output/.
